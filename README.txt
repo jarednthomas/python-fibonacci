@@ -3,7 +3,7 @@
  fibonacci.py
 ~~~~~~~~~~~~~~
 
-Program will return <n> numbers of the fibonacci sequence.
+Function that returns <n> numbers of the fibonacci sequence.
 Starts at (0, 1) with a default n of 20 numbers.
 fibonacci[0] will return (a)
 fibonacci[n] will return last
