@@ -1,19 +1,17 @@
-# total number of n's of the sequence to print
-f = int(raw_input("How many fibonacci numbers should I print? "))
-ns = range(1, f+1)
+#!/usr/bin/env python3
+fibonacci = []
 
-# definition for finding a fibonacci number
-def fibonacci(n):
-    fib = [0] * (n + 1)
+def fib_seq(a=0, b=1, n=20):
+    """ Retuns a list of n fibonacci numbers """
+    if (len(fibonacci) > n):
+        return fibonacci
+    else:
+        fibonacci.append(a)
+        temp = a
+        a = b
+        b = b + temp
+        fib_seq(a, b, n)
 
-    fib[0] = 0
-    fib[1] = 1
-
-    for i in range(2, n + 1):
-        fib[i] = fib[i - 1] + fib[i - 2]
-
-    return fib[n]
-
-# print each number using above definition
-for n in ns:
-    print fibonacci(n)
+if __name__=="__main__":
+    fib_seq()
+    print(fibonacci)
