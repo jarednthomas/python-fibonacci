@@ -1,6 +1,6 @@
 # fibonacci.py 
 
-Function that returns <n> numbers of the fibonacci sequence.
+Python function that returns (n) numbers of the fibonacci sequence.
  
 Starts at (0, 1) with a default n of 20 numbers. 
 
