@@ -2,7 +2,7 @@
 
 Python function that returns (n) numbers of the fibonacci sequence.
  
-Starts at (0, 1) with a default n of 20 numbers. 
+Starts at (a=0, b=1) with a default (n) of 20. 
 
 fibonacci[0] will return (a) 
 
