@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 fibonacci = []
 
-def fib_seq(a=0, b=1, n=20):
+def fib_seq(a=0, b=1, n=988):
     """ Retuns a list of n fibonacci numbers """
     if (len(fibonacci) > n):
         return fibonacci
@@ -13,5 +13,5 @@ def fib_seq(a=0, b=1, n=20):
         fib_seq(a, b, n)
 
 if __name__=="__main__":
-    fib_seq()
+    fib_seq(n=10)
     print(fibonacci)
