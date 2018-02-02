@@ -21,3 +21,4 @@ def golden_ratio(precision=988):
 
 if __name__=="__main__":
     print(golden_ratio())
+
