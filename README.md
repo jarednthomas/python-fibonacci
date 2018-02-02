@@ -19,3 +19,13 @@ fib_seq(5,8)
 
 fib_seq(5,8,3)
 > [5, 8, 13, 21]
+
+
+# golden_ratio.py
+
+Python function that returns an approximation of the golden ratio as a fraction using the above fibonnaci.
+
+examples
+
+golden_ratio()
+> 1.618033988749895
