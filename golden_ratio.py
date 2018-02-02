@@ -20,5 +20,4 @@ def golden_ratio(precision=988):
     return ratio
 
 if __name__=="__main__":
-    gr = golden_ratio()
-    print(gr)
+    print(golden_ratio())
